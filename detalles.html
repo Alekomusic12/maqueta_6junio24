@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detalles Seleccionados</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <!-- Tab de detalles seleccionados -->
+  <div id="tab-detalles" class="tab">
+    <h2>Detalles Seleccionados</h2>
+    <div class="detalles">
+      <p id="profesor-seleccionado"></p>
+      <p id="directivo-seleccionado"></p>
+      <label for="valor">Valor:</label>
+      <select id="valor">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+      <br>
+      <label for="informacion">Información:</label><br>
+      <textarea id="informacion"></textarea><br>
+      <button onclick="guardarInformacion()">Guardar Información</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
